@@ -4,7 +4,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export COLORSCHEME='tokyonight'
 
 # ZSH_THEME="powerlevel10k/powerlevel10k"
-plugins=(git python pip rust zsh-autosuggestions zsh-syntax-highlighting vi-mode macos tmuxinator thefuck)
+plugins=(git python pip rust zsh-autosuggestions zsh-syntax-highlighting vi-mode macos tmuxinator)
 
 export LC_ALL=en_IN.UTF-8
 export LANG=en_IN.UTF-8
