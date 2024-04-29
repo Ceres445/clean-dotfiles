@@ -1,0 +1,21 @@
+[user]
+    name = Druva D
+    email = ddruva445@gmail.com
+ ;    helper = store
+[temp]
+    email = Ceres445@users.noreply.github.com
+[core]
+    excludesfile = ~/.gitignore_global
+    autocrlf = input
+    editor = nvim
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[init]
+    defaultBranch = master
+[commit]
+	gpgsign = true
+[credential]
+    helper = store

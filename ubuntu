@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+sudo apt-get install build-essential
+sudo apt-get install zsh
+sudo apt-get install stow
+sudo apt-get install kitty
+sudo apt-get install tmux
+
+curl -LO https://aka.ms/gcm/linux-install-source.sh &&
+sh ./linux-install-source.sh &&
+git-credential-manager-core configure
+
+#install git, gcm manually if that doesn't work
+./ubuntu-zsh

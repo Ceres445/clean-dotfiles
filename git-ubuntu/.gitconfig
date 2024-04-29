@@ -1,0 +1,23 @@
+[user]
+    name = Ceres
+    email = 42400528+Ceres445@users.noreply.github.com
+[credential]
+    canFallBackToInsecureStore = false
+	credentialStore = cache
+[temp]
+    email = Ceres445@users.noreply.github.com
+[core]
+    excludesfile = ~/.gitignore_global
+    autocrlf = input
+    editor = nvim
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[init]
+    defaultBranch = master
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[commit]
+	gpgsign = false
