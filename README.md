@@ -11,3 +11,9 @@ Public dotfiles
 
 # For endeavour ( might work for plain arch as well)
 - run `./endeavour`
+
+# Using hyprland
+- use hypr branch
+
+# Cloning just files
+git clone --filter=blob:none --depth=1 https://github.com/Ceres445/clean-dotfiles/
